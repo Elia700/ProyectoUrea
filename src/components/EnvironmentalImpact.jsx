@@ -90,13 +90,6 @@ const EnvironmentalImpact = () => {
                                     </span>
                                 </div>
                                 <p className="text-sm text-slate-600 dark:text-slate-400 ml-8">{impact.negative.description}</p>
-
-                                {/* Visual connector indicator */}
-                                <div className={`mt-3 ml-8 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-500 
-                                    transition-all duration-300 ${hoveredIndex === impact.id ? 'opacity-100' : 'opacity-0'}`}>
-                                    <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
-                                    <span>Ver mitigación</span>
-                                </div>
                             </div>
                         ))}
                     </div>
@@ -128,13 +121,6 @@ const EnvironmentalImpact = () => {
                                     </div>
                                 </div>
                                 <p className="text-sm text-slate-600 dark:text-slate-400 ml-8">{impact.mitigation.description}</p>
-
-                                {/* Visual connector indicator */}
-                                <div className={`mt-3 ml-8 flex items-center gap-2 text-xs text-green-600 dark:text-green-500 
-                                    transition-all duration-300 ${hoveredIndex === impact.id ? 'opacity-100 font-semibold' : 'opacity-0'}`}>
-                                    <span className="material-symbols-outlined text-[16px]">check_circle</span>
-                                    <span>Solución activa</span>
-                                </div>
                             </div>
                         ))}
                     </div>
