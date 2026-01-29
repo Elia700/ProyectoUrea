@@ -14,7 +14,7 @@ function App() {
         <div className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
             <Header />
 
-            <main className="flex flex-col w-full min-h-screen">
+            <main className="flex flex-col w-full min-h-screen pt-16">
                 {/* Todas las secciones en una sola página continua */}
                 <Hero />
                 <MolecularComposition />
